@@ -1,0 +1,5 @@
+TO DO:
+
+-> Overhaul sprites (insert animations & triggers)
+-> Build version
+-> Start Scripting behaviors and managers
