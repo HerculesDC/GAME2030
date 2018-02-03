@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9f74a2de15695fd4aafd4135ea0efaa6
-timeCreated: 1517585544
+timeCreated: 1517688657
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -48,6 +48,15 @@ TextureImporter:
     21300082: Arcade - QBert - General Sprites_41
     21300084: Arcade - QBert - General Sprites_42
     21300086: Arcade - QBert - General Sprites_43
+    21300088: Arcade - QBert - General Sprites_44
+    21300090: Arcade - QBert - General Sprites_45
+    21300092: Arcade - QBert - General Sprites_46
+    21300094: Arcade - QBert - General Sprites_47
+    21300096: Arcade - QBert - General Sprites_48
+    21300098: Arcade - QBert - General Sprites_49
+    21300100: Arcade - QBert - General Sprites_50
+    21300102: Arcade - QBert - General Sprites_51
+    21300104: Arcade - QBert - General Sprites_52
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -125,7 +134,7 @@ TextureImporter:
         x: 1
         y: 368
         width: 15
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +162,7 @@ TextureImporter:
         x: 32
         y: 368
         width: 15
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,7 +190,7 @@ TextureImporter:
         x: 64
         y: 368
         width: 15
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,7 +218,7 @@ TextureImporter:
         x: 97
         y: 368
         width: 15
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,7 +260,7 @@ TextureImporter:
         x: 64
         y: 352
         width: 16
-        height: 10
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,7 +288,7 @@ TextureImporter:
         x: 35
         y: 352
         width: 10
-        height: 6
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,7 +316,7 @@ TextureImporter:
         x: 2
         y: 352
         width: 13
-        height: 8
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,9 +552,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 281
+        y: 276
         width: 48
-        height: 20
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -715,7 +724,7 @@ TextureImporter:
         width: 8
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -729,7 +738,133 @@ TextureImporter:
         width: 8
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 265
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 257
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 249
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 241
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 233
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 225
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
