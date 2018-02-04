@@ -10,8 +10,8 @@ public class BlockBehavior : MonoBehaviour {
     private GameObject yellowBlock;
 
     void Awake() {
-        blueBlock = GameObject.Find("Inactive");
-        yellowBlock = GameObject.Find("Active");
+        blueBlock = this.gameObject.transform.Find("Inactive").gameObject;
+        yellowBlock = this.gameObject.transform.Find("Active").gameObject;
         blueBlock.SetActive(true);
         yellowBlock.SetActive(false);
     }
