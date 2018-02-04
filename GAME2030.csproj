@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MyAssets\Scripts\BlockBehavior.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TODO List.txt" />
