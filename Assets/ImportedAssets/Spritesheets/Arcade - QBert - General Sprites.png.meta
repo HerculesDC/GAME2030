@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9f74a2de15695fd4aafd4135ea0efaa6
-timeCreated: 1517688657
+timeCreated: 1518183869
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -57,6 +57,8 @@ TextureImporter:
     21300100: Arcade - QBert - General Sprites_50
     21300102: Arcade - QBert - General Sprites_51
     21300104: Arcade - QBert - General Sprites_52
+    21300106: Arcade - QBert - General Sprites_53
+    21300108: Arcade - QBert - General Sprites_54
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -865,6 +867,34 @@ TextureImporter:
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 259
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - QBert - General Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 259
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

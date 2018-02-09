@@ -3,27 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems; // for Mouse Event handlers on Canvas
 
-public class ButtonBehavior : MonoBehaviour {
+public class ButtonBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
 
     [SerializeField] private int sceneToLoad;
-    private Sprite sprite;
+    private GameObject sprite;
 
-    void Awake() {
-        sprite = transform.Find("IconSelect").gameObject.GetComponent<Sprite>();
-    }
+    //Inline functions for ease of control
+    void Awake() { sprite = transform.Find("IconSelect").gameObject; }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	void Start () { sprite.SetActive(false); }
 
-    public void DoSceneChange() {
-        SceneManager.LoadScene(sceneToLoad);
-    }
+    void IPointerEnterHandler.OnPointerEnter(PointerEventData d) { if (sprite != null) sprite.SetActive(true); }
+
+    void IPointerExitHandler.OnPointerExit(PointerEventData d) { if (sprite != null) sprite.SetActive(false); }
+
+    public void DoSceneChange() { SceneManager.LoadScene(sceneToLoad); }
+
+    public void QuitApp() { Application.Quit(); }
 }

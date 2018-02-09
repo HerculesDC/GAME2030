@@ -1,5 +1,5 @@
 TO DO:
 
--> Overhaul sprites (insert animations & triggers)
+-> Overhaul sprites (insert animations & triggers) = OK;
 -> Build version
 -> Start Scripting behaviors and managers

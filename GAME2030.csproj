@@ -78,8 +78,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MyAssets\Scripts\ArrowBehavior.cs" />
     <Compile Include="Assets\MyAssets\Scripts\BlockBehavior.cs" />
     <Compile Include="Assets\MyAssets\Scripts\ButtonBehavior.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\CanvasController.cs" />
     <Compile Include="Assets\MyAssets\Scripts\GameManager.cs" />
     <Compile Include="Assets\MyAssets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
