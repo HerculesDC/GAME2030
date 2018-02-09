@@ -30,8 +30,17 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (isGrounded) {
-            if (Input.GetKeyDown(KeyCode.A)) {
+            if (Input.GetKeyDown(KeyCode.Keypad1)) { //down left
                 GetComponent<Rigidbody2D>().AddForce(new Vector2(-sideForce, downForce));
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad3)) { //down right
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(sideForce, downForce));
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad7)) { //top left
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(-sideForce, upForce));
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad9)) { //top right
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(sideForce, upForce));
             }
         }
     }
@@ -40,6 +49,7 @@ public class PlayerMovement : MonoBehaviour {
         if (collision.gameObject.CompareTag("Block")) {
             isGrounded = true;
         }
+        //include enemy collision (disable collision, trigger animation
     }
 
     void OnCollisionExit2D(Collision2D collision) {
